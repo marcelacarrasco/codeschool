@@ -1,5 +1,14 @@
+body {
+  background-color: rgb(253, 250, 245);
+  padding: 50px;
+  margin: 50px;
+}
 h1,
 h2 {
   text-align: center;
   color: rgb(187, 149, 155);
+}
+p {
+  text-align: center;
+  color: rgb(85, 93, 87);
 }
