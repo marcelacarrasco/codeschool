@@ -1,17 +1,75 @@
 body {
-  background-color: rgb(253, 250, 245);
-  padding: 50px;
-  margin: 50px;
+  font-family: roboto mono;
+  margin: 16px;
+  color: white;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(134, 134, 134) 0%,
+    rgb(135, 164, 191) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-h1,
+
+h1 {
+  color: white;
+  font-family: roboto mono;
+  font-size: 24px;
+  font-weight: 100;
+  padding-top: 40px;
+  margin: 0;
+  text-align: left;
+}
 h2 {
-  text-align: center;
-  color: rgb(187, 149, 155);
+  color: white;
+  font-family: roboto mono;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  text-align: left;
 }
-p {
+.today {
   text-align: center;
-  color: rgb(85, 93, 87);
+  margin: 0 0 10px;
+  padding: 0;
 }
-footer {
+.weather-app {
+  border: 1px solid white;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+}
+.container {
+  color: white;
+  font-family: roboto mono;
+}
+.icon {
+  width: 90px;
+  height: 95px;
+  margin-right: 2px;
+}
+.temperature {
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.units {
+  position: relative;
+  top: -20px;
+}
+.search-city {
+  margin-bottom: 20px;
+}
+.weekly {
+  align-items: flex-end;
+}
+.days {
+  display: inline-block;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.days i {
   text-align: center;
 }
